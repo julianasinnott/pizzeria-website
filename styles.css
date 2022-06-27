@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.container {
+  background: #E5E5E5;
+  max-width: 100vw;
+  padding: 1.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-time {
+  max-width: 90rem;
+  background: #FFFFFF;
+  border-radius: 3.75rem;
+}
+
+.header {
+  padding: 1.375rem 6.25rem 1.375rem 5.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.header__navbar-list {
+  display: flex;
+  gap: 2.25rem;
+  list-style: none;
+}
+
+.header__navbar-list__home > a {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #EC0000;
+}
+
+.header__navbar-list__menu > a, .header__navbar-list__promo > a {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #00240F;
+}
+
+.header__navbar-utils {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header__narvbar-utils__search-cart {
+  padding-top: 0.5rem;  
+}
+
+.cart-icon {
+  padding-left: 1.5rem;
+}
+
+.header__navbar-utils__button {
+  border: none;
+  border-radius: 1.5625rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  background: #EC0000;
+  color: #FFFFFF;
+  padding: 0.625rem 1.5rem;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  padding-bottom: 7rem;
+}
+
+.banner__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7.25rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.banner__text__title {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 4.625rem;
+  color: #00240F;
+}
+
+.banner__text__subtitle {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 3.625rem;
+  color: #00240F;
+}
+
+.banner__button {
+  border: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: #FFFFFF;
+  background: #EC0000;
+  box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+  border-radius: 1.5625rem;
+  padding: 0.625rem 1.5rem;
+}
+
+.banner__image {
+  width: 50%;
+}
+
+.menu__section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.menu__title {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 4.625rem;
+  color: #00240F;
+  text-align: center;
+}
+
+.menu__options {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.cheese-pizza, .pepperoni-pizza, .margherita-pizza {
+  max-width: 18.125rem;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  padding: 1.5rem 2.625rem;
+  border-radius: 11.25rem 11.25rem 1.875rem 1.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.margherita-pizza{
+  box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+}
+
+.cheese-pizza__title, .pepperoni-pizza__title, .margherita-pizza__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.cheese-pizza__img, .pepperoni-pizza__img, .margherita-pizza__img {
+  border-radius: 50%;
+  background: #C4C4C4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(-10px 20px 40px rgba(0, 0, 0, 0.16));
+}
+
+.cheese-pizza__description, .pepperoni-pizza__description, .margherita-pizza__description {
+  font-weight: 300;
+  width: 34ch;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-align: center;
+}
+
+.chesse-pizza__price, .pepperoni-pizza__price, .margherita-pizza__price {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #05A84B;
+}
+
+.cheese-pizza__actions, .pepperoni-pizza__actions, .margherita-pizza__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+#pizza {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(./assets/arrow-select.png) no-repeat center right 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  color: #333333;
+  border: 1px solid #4F4F4F;
+  border-radius: 1.5625rem;
+  padding: 0.59375rem 1rem 0.5625rem 1rem;  
+}
+
+.chesse-pizza__button, .pepperoni-pizza__button, .margherita-pizza__button {
+  border: none;
+  padding: 0.625rem 1.5rem;
+  background: #EC0000;
+  border-radius: 1.5625rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #FFFFFF;
+}
+

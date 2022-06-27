@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Time</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="pizza-time">
+      <header class="header">
+        <img class="header__logo" src="./assets/logo.png" alt="Pizza Image">
+        <nav class="header__navbar" >
+          <ul class="header__navbar-list">
+            <li class="header__navbar-list__home">
+              <a href="#">
+                Home
+              </a>
+            </li>
+            <li class="header__navbar-list__menu">
+              <a href="#">
+                Menu
+              </a>
+            </li>
+            <li class="header__navbar-list__promo">
+              <a href="#">
+                Promo
+              </a>
+            </li>
+          </ul>
+          <div class="header__navbar-utils">
+            <div class="header__narvbar-utils__search-cart">
+              <a href="">
+                <img class="search-icon" src="./assets/search-icon.png" alt="Search Icon">
+              </a>
+              <a href="">
+                <img class="cart-icon" src="./assets/cart-icon.png" alt="Cart Icon">
+              </a>           
+            </div>          
+            <button class="header__navbar-utils__button">
+              SIGN IN
+            </button>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="banner__section">
+          <div class="banner">
+            <div class="banner__text">
+              <h1 class="banner__text__title">
+                Friday pizza!
+              </h1>
+              <h2 class="banner__text__subtitle">
+                Time to enjoy our delicious pizza.
+              </h2>
+            </div>
+            <div>
+              <button class="banner__button">
+                ORDER NOW
+              </button>
+            </div>
+          </div>
+          <img class="banner__image" src="./assets/pizza-principal.png" alt="">
+        </section>
+        <section class="menu__section">
+          <h1 class="menu__title">
+            Recommended menu
+          </h1>
+          <div class="menu__options">
+            <div class="cheese-pizza">
+              <img class="cheese-pizza__img" src="./assets/cheese-pizza.png" alt="Chesse Pizza Image">
+              <p class="cheese-pizza__title">
+                Cheese Lovers
+              </p>
+              <p class="cheese-pizza__description">
+                Combination of Alfredo sauce and two <br>
+                cheeses – Romano, and Parmesan.
+              </p>
+              <p class="chesse-pizza__price">
+                $20.00
+              </p>
+              <div class="cheese-pizza__actions">
+                <select name="pizza" id="pizza">
+                  <option value="regular">Regular</option>
+                </select>
+                <button class="chesse-pizza__button">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="pepperoni-pizza">
+              <img class="pepperoni-pizza__img" src="./assets/pepperoni-pizza.png" alt="Pepperoni Pizza Image">
+              <p class="pepperoni-pizza__title">
+                Pepperoni Pizza
+              </p>
+              <p class="pepperoni-pizza__description">
+                Pizza with homemade spicy beef <br>
+                sausage
+              </p>
+              <p class="pepperoni-pizza__price">
+                $25.00
+              </p>
+              <div class="pepperoni-pizza__actions">
+                <select name="pizza" id="pizza">
+                  <option value="regular">Regular</option>
+                </select>
+                <button class="pepperoni-pizza__button">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="margherita-pizza">
+              <img class="margherita-pizza__img" src="./assets/margherita-pizza.png" alt="Margherita Pizza Image">
+              <p class="margherita-pizza__title">
+                Margherita Pizza
+              </p>
+              <p class="margherita-pizza__description">
+                Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.
+              </p>
+              <p class="margherita-pizza__price">
+                $35.00
+              </p>
+              <div class="margherita-pizza__actions">
+                <select name="pizza" id="pizza">
+                  <option value="regular">Regular</option>
+                </select>
+                <button class="margherita-pizza__button">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>                        
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>  
+</body>
+</html>
