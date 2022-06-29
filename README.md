@@ -25,3 +25,25 @@ Desenvolvido durante o curso de Desenvolvimento FrontEnd - Digital House.
 ## | Layout base no Figma |
 
 🔗 https://www.figma.com/file/f1mBkJSvOKlSRiXN8UmEmW/frontend-m03-10-2-(Copy)?node-id=0%3A1 🔗
+
+## | Como rodar |
+
+Para clonar e rodar esse projeto você precisa ter instalado o [Git](https://git-scm.com/). 
+
+<hr>
+
+No terminal:
+
+#### Clonando o repositório
+$ `git clone https://github.com/julianasinnott/pizzeria-website.git`
+
+#### Entrando no repositório
+$ `cd pizzeria-website`
+
+<hr>
+
+#### - Para visualizar o projeto, abra o arquivo .html em seu navegador -
+
+## | Deploy |
+
+[GitHub Pages](https://pages.github.com/)
